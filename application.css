@@ -1,0 +1,28 @@
+
+#hncommentsNotify {
+	position: fixed;
+	top: -40px;
+	left: 0;
+	height: 22px;
+	width: 100%;
+	z-index: 1000;
+	cursor: pointer;
+	background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(250,233,167)),
+      color-stop(1, rgb(254,243,197))
+    );
+	-webkit-transition-property: top;
+	-webkit-transition-duration: 0.5s;
+	border-bottom: 1px solid #8e8e8e;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+}
+
+#hncommentsNotify.show {
+  top: 0;
+}
